@@ -1,7 +1,7 @@
 {
   "name": "grunt-juice-email",
   "description": "Inline stylesheets into email HTML templates using LearnBoost's Juice",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/disintegrator/grunt-juice-email",
   "author": {
     "name": "George Haidar",
@@ -27,12 +27,14 @@
   "scripts": {
     "test": "grunt test"
   },
+  "dependencies": {
+    "juice": "~0.4.0"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.1",
-    "juice": "~0.4.0"
+    "grunt": "~0.4.1"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
