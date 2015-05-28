@@ -45,9 +45,11 @@ The available options can be found [here](https://github.com/LearnBoost/juice#ju
 ```js
 grunt.initConfig({
   juice: {
-    options: {},
-    files: {
+    your_target: {
+      options: {},
+      files: {
       'dest/email-template.html': 'src/email-template.html',
+      },
     },
   },
 })
