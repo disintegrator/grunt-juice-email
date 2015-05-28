@@ -30,7 +30,7 @@ module.exports = function(grunt) {
             return true;
           }).forEach(function(filepath) {
             jobs.push(function(callback) {
-              juice(filepath, options, function(err, html) {
+              juice.juiceFile(filepath, options, function(err, html) {
                 if (err) {
                   callback(err);
                   grunt.warn(err, 3);
