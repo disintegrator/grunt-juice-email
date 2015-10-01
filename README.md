@@ -55,3 +55,18 @@ grunt.initConfig({
 })
 ```
 
+```js
+grunt.initConfig({
+  juice: {
+    your_target: {
+      options: {},
+      files: [
+        {
+          src: 'src/email-template.html',
+          dest: 'dest/email-template.html'
+        },
+      ],
+    },
+  },
+})
+```
