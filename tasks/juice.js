@@ -18,6 +18,16 @@ module.exports = function(grunt) {
             done = this.async(),
             jobs = [];
 
+
+        // Juice Global settings
+        if (options.hasOwnProperty("globals")) {
+          for (var key in options.globals) {
+            if (options.globals.hasOwnProperty(key)) {
+                juice[key] = options.globals[key];
+            }
+          }
+        }
+
         // Iterate over all specified file groups.
         this.files.forEach(function(f) {
           // Concat specified files.
