@@ -1,7 +1,7 @@
 {
   "name": "grunt-juice-email",
   "description": "Inline stylesheets into email HTML templates using Automattic's Juice",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/disintegrator/grunt-juice-email",
   "author": {
     "name": "George Haidar",
