@@ -1,6 +1,6 @@
 {
   "name": "grunt-juice-email",
-  "description": "Inline stylesheets into email HTML templates using LearnBoost's Juice",
+  "description": "Inline stylesheets into email HTML templates using Automattic's Juice",
   "version": "0.1.3",
   "homepage": "https://github.com/disintegrator/grunt-juice-email",
   "author": {

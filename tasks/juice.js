@@ -12,7 +12,7 @@ var juice = require('juice');
 module.exports = function(grunt) {
 
   grunt.registerMultiTask('juice',
-      'Inline stylesheets into email HTML templates using LearnBoost\'s Juice',
+      'Inline stylesheets into email HTML templates using Automattic\'s Juice',
       function() {
         var options = this.options({}),
             done = this.async(),

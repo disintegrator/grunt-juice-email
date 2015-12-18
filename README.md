@@ -1,6 +1,6 @@
 # grunt-juice-email
 
-> Inline stylesheets into email HTML templates using LearnBoost's Juice
+> Inline stylesheets into email HTML templates using Automattic's Juice
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
@@ -38,7 +38,7 @@ grunt.initConfig({
 ### Options
 
 This task's options are the same as those passed to the juice function.
-The available options can be found [here](https://github.com/LearnBoost/juice#juicefilepath-options-callback).
+The available options can be found [here](https://github.com/Automattic/juice#juicefilepath-options-callback).
 
 ### Usage Examples
 
