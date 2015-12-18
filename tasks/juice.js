@@ -16,17 +16,12 @@ module.exports = function(grunt) {
       function() {
         var options = this.options({}),
             done = this.async(),
-            jobs = [];
+            jobs = [],
+            juiceGlobals = options.globals || {};
 
-
-        // Juice Global settings
-        if (options.hasOwnProperty("globals")) {
-          for (var key in options.globals) {
-            if (options.globals.hasOwnProperty(key)) {
-                juice[key] = options.globals[key];
-            }
-          }
-        }
+        Object.keys(juiceGlobals).forEach(function(key) {
+          juice[key] = juiceGlobals[key]
+        })
 
         // Iterate over all specified file groups.
         this.files.forEach(function(f) {
